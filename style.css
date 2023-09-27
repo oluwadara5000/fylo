@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;900&display=swap");
 
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
 * {
   margin: 0;
   padding: 0;
@@ -18,12 +21,178 @@ body {
 
 section{
   width: 1440px;
-  background-color: hsl(218, 28%, 13%);
+  background-color: #181E2A;
   margin: auto;
 }
 
 header{
   padding: 70px 80px;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    background-color: #1B212F;
 }
+
+header ul{
+  display: flex;
+  gap: 60px;
+}
+
+header ul > li{
+  list-style-type: none;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.intro{
+  position: relative;
+  padding-bottom: 160px;
+  height: 1100px;
+    background-color: #1B212F;
+}
+
+.intro-background{
+  position: absolute;
+  z-index: 100;
+  bottom: -4px;
+  height: max-content;
+}
+
+.intro-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 50px;
+  position: relative;
+}
+
+.lower{
+  width: 680px;
+  margin: auto;
+   position: absolute;
+   top: 600px;
+   left: 50%;
+   margin-left: -340px;
+   z-index: 1000;
+}
+
+.lower h1{
+  font-family: 'Raleway';
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+
+.lower p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 100;
+  margin-bottom: 35px;
+}
+
+.lower button{
+  background-image: linear-gradient(
+      to right,
+      hsl(176, 68%, 64%),
+      hsl(198, 60%, 50%)
+    );
+    font-family: 'Raleway';
+    font-weight: 700;
+    padding: 17px 94px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.features{
+  padding: 0 280px;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 140px;
+  row-gap: 100px;
+  margin-bottom: 135px;
+}
+
+.features div{
+  text-align: center;
+}
+
+.features div h1{
+  font-family: 'Raleway';
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.features div p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.features div:nth-child(2) img{
+  margin-bottom: 15px;
+}
+
+.features div:nth-child(1) img{
+  margin-bottom: 25px;
+}
+
+.features div:nth-child(3) img{
+  margin-bottom: 15px;
+}
+
+.features div:nth-child(4) img{
+  margin-bottom: 22px;
+}
+
+.productive{
+  display: flex;
+  align-items: center;
+  padding: 0 105px;
+  justify-content: space-between;
+}
+
+.productive div:nth-child(2){
+  width: 550px;
+}
+
+.productive div:nth-child(2) h1{
+  width: 335px;
+  font-family: 'Raleway';
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.productive div:nth-child(2) h5, .productive div:nth-child(2) h6{
+  font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+font-weight: normal;
+line-height: 28px;
+}
+
+.productive div:nth-child(2) h5{
+  margin-bottom: 15px;
+}
+
+.productive div:nth-child(2) h6{
+  margin-bottom: 15px;
+}
+
+.productive span{
+  width: 175px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  color: hsl(176, 68%, 64%);
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 5px;
+}
+
+
+
+
 
 
