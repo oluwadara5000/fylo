@@ -19,48 +19,48 @@ body {
   width: 100%;
 }
 
-section{
+section {
   width: 1440px;
-  background-color: #181E2A;
+  background-color: #181e2a;
   margin: auto;
 }
 
-header{
+header {
   padding: 70px 80px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
-    background-color: #1B212F;
+  background-color: #1b212f;
 }
 
-header ul{
+header ul {
   display: flex;
   gap: 60px;
 }
 
-header ul > li{
+header ul > li {
   list-style-type: none;
   letter-spacing: 1px;
   font-weight: 100;
   font-size: 15px;
 }
 
-.intro{
+.intro {
   position: relative;
   padding-bottom: 160px;
   height: 1100px;
-    background-color: #1B212F;
+  background-color: #1b212f;
 }
 
-.intro-background{
+.intro-background {
   position: absolute;
   z-index: 100;
   bottom: -4px;
   height: max-content;
 }
 
-.intro-container{
+.intro-container {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -68,45 +68,45 @@ header ul > li{
   position: relative;
 }
 
-.lower{
+.lower {
   width: 680px;
   margin: auto;
-   position: absolute;
-   top: 600px;
-   left: 50%;
-   margin-left: -340px;
-   z-index: 1000;
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  margin-left: -340px;
+  z-index: 1000;
 }
 
-.lower h1{
-  font-family: 'Raleway';
+.lower h1 {
+  font-family: "Raleway";
   font-size: 40px;
   line-height: 60px;
   margin-bottom: 40px;
 }
 
-.lower p{
-  font-family: 'Open Sans', sans-serif;
+.lower p {
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 30px;
   font-weight: 100;
   margin-bottom: 35px;
 }
 
-.lower button{
+.lower button {
   background-image: linear-gradient(
-      to right,
-      hsl(176, 68%, 64%),
-      hsl(198, 60%, 50%)
-    );
-    font-family: 'Raleway';
-    font-weight: 700;
-    padding: 17px 94px;
-    border-radius: 50px;
-    font-size: 16px;
+    to right,
+    hsl(176, 68%, 64%),
+    hsl(198, 60%, 50%)
+  );
+  font-family: "Raleway";
+  font-weight: 700;
+  padding: 17px 94px;
+  border-radius: 50px;
+  font-size: 16px;
 }
 
-.features{
+.features {
   padding: 0 280px;
   display: grid;
   grid-template-columns: auto auto;
@@ -115,84 +115,159 @@ header ul > li{
   margin-bottom: 135px;
 }
 
-.features div{
+.features div {
   text-align: center;
 }
 
-.features div h1{
-  font-family: 'Raleway';
+.features div h1 {
+  font-family: "Raleway";
   font-size: 18px;
   margin-bottom: 10px;
 }
 
-.features div p{
-  font-family: 'Open Sans', sans-serif;
+.features div p {
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 25px;
 }
 
-.features div:nth-child(2) img{
+.features div:nth-child(2) img {
   margin-bottom: 15px;
 }
 
-.features div:nth-child(1) img{
+.features div:nth-child(1) img {
   margin-bottom: 25px;
 }
 
-.features div:nth-child(3) img{
+.features div:nth-child(3) img {
   margin-bottom: 15px;
 }
 
-.features div:nth-child(4) img{
+.features div:nth-child(4) img {
   margin-bottom: 22px;
 }
 
-.productive{
+.productive {
   display: flex;
   align-items: center;
   padding: 0 105px;
   justify-content: space-between;
 }
 
-.productive div:nth-child(2){
+.productive div:nth-child(2) {
   width: 550px;
 }
 
-.productive div:nth-child(2) h1{
+.productive div:nth-child(2) h1 {
   width: 335px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 40px;
   margin-bottom: 20px;
 }
 
-.productive div:nth-child(2) h5, .productive div:nth-child(2) h6{
-  font-family: 'Open Sans', sans-serif;
-font-size: 16px;
-font-weight: normal;
-line-height: 28px;
+.productive div:nth-child(2) h5,
+.productive div:nth-child(2) h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
 }
 
-.productive div:nth-child(2) h5{
+.productive div:nth-child(2) h5 {
   margin-bottom: 15px;
 }
 
-.productive div:nth-child(2) h6{
+.productive div:nth-child(2) h6 {
   margin-bottom: 15px;
 }
 
-.productive span{
+.productive span {
   width: 175px;
   display: flex;
   align-items: center;
   gap: 7px;
   border-bottom: 1px solid hsl(176, 68%, 64%);
   color: hsl(176, 68%, 64%);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding-bottom: 5px;
 }
 
+.testimonials {
+  margin-bottom: 60px;
+  /* padding: 140px 135px; */
+  position: relative;
+  height: 546px;
+  font-family: "Open Sans", sans-serif;
+}
 
+.quotes {
+  position: absolute;
+  top: 125px;
+  left: 130px;
+  z-index: 100;
+}
 
+.testimonial-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100000;
+  width: 1160px;
+  left: 50%;
+  margin-left: -580px;
+  top: 50%;
+  margin-top: -115px;
+  border-radius: 5px;
+}
 
+.satish,
+.bruce,
+.iva {
+  width: 360px;
+  background-color: hsl(219, 30%, 18%);
+  padding: 45px 30px 30px 30px;
+  border-radius: 5px;
+}
 
+.satish:hover,
+.bruce:hover,
+.iva:hover{
+  box-shadow: 5px 5px 30px black;
+  transition: 0.15s ease-in;
+}
 
+.satish > p,
+.bruce > p,
+.iva > p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.satish > div,
+.bruce > div,
+.iva > div {
+  display: flex;
+  align-items: center;
+}
+
+.satish > div img,
+.bruce > div img,
+.iva > div img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.satish > div h1,
+.bruce > div h1,
+.iva > div h1,
+.satish > div p,
+.bruce > div p,
+.iva > div p {
+  font-size: 10px;
+  margin-bottom: 2px;
+}
