@@ -19,6 +19,10 @@ body {
   width: 100%;
 }
 
+br{
+  display: none;
+}
+
 section {
   width: 1440px;
   background-color: #181e2a;
@@ -193,9 +197,7 @@ header ul > li {
 }
 
 .testimonials {
-  margin-bottom: 60px;
-  /* padding: 140px 135px; */
-  position: relative;
+   position: relative;
   height: 546px;
   font-family: "Open Sans", sans-serif;
 }
@@ -271,3 +273,153 @@ header ul > li {
   font-size: 10px;
   margin-bottom: 2px;
 }
+
+.email{
+  background-color: hsl(217, 28%, 15%);
+  width: 850px;
+  margin: auto;
+  text-align: center;
+  padding: 45px 0;
+  box-shadow: 3px 3px 8px black;
+  border-radius: 5px;
+  margin-bottom: -115px;
+  position: absolute;
+  left: 50%;
+  margin-left: -425px;
+}
+
+.email div:nth-child(1) h1{
+  font-family: "Raleway";
+  margin-bottom: 20px;
+}
+
+.email div:nth-child(1) p{
+ font-family: "Open Sans", sans-serif;
+  width: 620px;
+  margin: auto;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.email div:nth-child(2) input{
+width: 480px;
+font-size: 12px;
+padding: 15px 40px;
+color: hsl(217, 28%, 15%);
+border-radius: 50px;
+border: 0;
+outline: none;
+}
+
+.email div:nth-child(2) button{
+  background-image: linear-gradient(
+    to right,
+    hsl(176, 68%, 64%),
+    hsl(198, 60%, 50%)
+  );
+  font-family: "Raleway";
+  font-weight: 700;
+  padding: 17px 30px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.email div:nth-child(2) input::placeholder{
+  color: #D9D9D9;
+}
+
+footer{
+ background-color: hsl(216, 53%, 9%); 
+ margin-top: 145px;
+ padding: 200px 80px 90px 115px;
+ display: flex;
+}
+
+.first{
+  margin-right: 95px;
+}
+
+.first div:nth-child(1){
+  margin-bottom: 30px;
+}
+
+.first div:nth-child(2){
+display: flex;
+align-items: start;
+}
+
+.first div:nth-child(2) img{
+margin-right: 30px;
+margin-top: 4px;
+}
+
+.first div:nth-child(2) p{
+width: 320px;
+font-family: "Open Sans", sans-serif;
+line-height: 25px;
+font-size: 14px;
+}
+
+.second{
+  margin-right: 150px;
+  padding-top: 85px;
+}
+
+.second h5, .second h6{
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+}
+
+.second img{
+  margin-right: 25px;
+}
+
+.second h5{
+  margin-bottom: 20px;
+}
+
+.third{
+  margin-right: 120px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  display: flex;
+  gap: 80px;
+  padding-top: 85px;
+}
+
+.third ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.third ul > li{
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.fourth{
+  display: flex;
+  gap: 15px;
+  padding-top: 85px;
+}
+
+.fourth i{
+  text-align: center;
+  padding: 11px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+
+
