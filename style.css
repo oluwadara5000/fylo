@@ -1018,7 +1018,7 @@ footer {
 
   .curvy-mobile {
     display: block;
-    width: 100%;
+    width: 410px;
   }
 
   .curvy-desktop {
@@ -1177,6 +1177,817 @@ footer {
   footer {
     margin-top: 340px;
     padding: 235px 30px 40px 30px;
+    flex-direction: column;
+  }
+
+  .first {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .first div:nth-child(2) img {
+    margin-right: 20px;
+  }
+
+  .first div:nth-child(2) p {
+    width: 100%;
+    line-height: 25px;
+    font-size: 16px;
+  }
+
+  .second {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 85px;
+  }
+
+  .second img {
+    margin-right: 15px;
+  }
+
+  .third {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 80px;
+  }
+
+  .third ul {
+    gap: 20px;
+  }
+
+  .fourth {
+    padding: 0;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .fourth i {
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 526px TO 600px */
+@media screen and (min-width: 526px) and (max-width: 600px) {
+  section {
+    width: 525px;
+    margin: auto;
+  }
+
+  header {
+    padding: 25px 40px;
+  }
+
+  header div:nth-child(1) {
+    width: 25%;
+  }
+
+  header div:nth-child(1) img {
+    width: 100%;
+  }
+
+  header ul {
+    gap: 25px;
+  }
+
+  header ul > li {
+    font-size: 12px;
+  }
+
+  .intro {
+    padding: 0 35px;
+    height: 550px;
+    padding-top: 45px;
+  }
+
+  .curvy-mobile {
+    display: block;
+    width: 485px;
+  }
+
+  .curvy-desktop {
+    display: none;
+  }
+
+  .intro-container {
+    width: 100%;
+  }
+
+  .intro-container img {
+    width: 100%;
+  }
+
+  .lower {
+    width: 100%;
+    left: 0;
+    margin: 0;
+    top: 350px;
+  }
+
+  .lower h1 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+
+  .lower p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  .lower button {
+    font-size: 12px;
+  }
+
+  .features {
+    margin-top: 315px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    gap: 80px;
+  }
+
+  .productive {
+    flex-direction: column;
+    padding: 0 40px;
+    gap: 40px;
+  }
+
+  .productive div:nth-child(1) img {
+    width: 100%;
+  }
+
+  .productive div:nth-child(2) {
+    width: 100%;
+  }
+
+  .productive div:nth-child(2) h1 {
+    width: 100%;
+    font-size: 19px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .productive div:nth-child(2) h5,
+  .productive div:nth-child(2) h6 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+  }
+
+  .productive span {
+    font-size: 12px;
+    width: max-content;
+  }
+
+  .testimonials {
+    margin-top: 150px;
+    margin-bottom: 160px;
+  }
+
+  .quotes {
+    width: 25px;
+    height: 20px;
+    top: 0;
+    left: 125px;
+  }
+
+  .testimonial-div {
+    width: 100%;
+    margin-left: 0;
+    left: 0;
+    top: 15px;
+    margin-top: 0;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .satish,
+  .bruce,
+  .iva {
+    width: 280px;
+    background-color: hsl(219, 30%, 18%);
+    padding: 23px;
+    border-radius: 5px;
+  }
+
+  .satish > p,
+  .bruce > p,
+  .iva > p {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+  .email {
+    width: 336px;
+    padding: 40px 25px;
+    left: 50%;
+    margin-left: -168px;
+  }
+
+  .email div:nth-child(1) h1 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .email div:nth-child(1) p {
+    width: 100%;
+    margin: auto;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  form {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .email div:nth-child(2) input {
+    width: 100%;
+    padding: 15px 30px;
+  }
+
+  .email div:nth-child(2) button {
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 12px;
+  }
+
+  footer {
+    margin-top: 340px;
+    padding: 235px 40px 40px 40px;
+    flex-direction: column;
+  }
+
+  .first {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .first div:nth-child(2) img {
+    margin-right: 20px;
+  }
+
+  .first div:nth-child(2) p {
+    width: 100%;
+    line-height: 25px;
+    font-size: 16px;
+  }
+
+  .second {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 85px;
+  }
+
+  .second img {
+    margin-right: 15px;
+  }
+
+  .third {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 80px;
+  }
+
+  .third ul {
+    gap: 20px;
+  }
+
+  .fourth {
+    padding: 0;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .fourth i {
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 601px TO 685px */
+@media screen and (min-width: 601px) and (max-width: 685px) {
+  section {
+    width: 600px;
+    margin: auto;
+  }
+
+  header {
+    padding: 25px 40px;
+  }
+
+  header div:nth-child(1) {
+    width: 25%;
+  }
+
+  header div:nth-child(1) img {
+    width: 100%;
+  }
+
+  header ul {
+    gap: 25px;
+  }
+
+  header ul > li {
+    font-size: 12px;
+  }
+
+  .intro {
+    padding: 0 35px;
+    height: 650px;
+    padding-top: 45px;
+  }
+
+  .curvy-mobile {
+    display: block;
+    width: 560px;
+  }
+
+  .curvy-desktop {
+    display: none;
+  }
+
+  .intro-container {
+    width: 100%;
+  }
+
+  .intro-container img {
+    width: 100%;
+  }
+
+  .lower {
+    width: 100%;
+    left: 0;
+    margin: 0;
+    top: 450px;
+  }
+
+  .lower h1 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 15px;
+    text-wrap: pretty;
+  }
+
+  .lower p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  .lower button {
+    font-size: 12px;
+  }
+
+  .features {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    gap: 80px;
+  }
+
+  .productive {
+    flex-direction: column;
+    padding: 0 40px;
+    gap: 40px;
+  }
+
+  .productive div:nth-child(1) img {
+    width: 100%;
+  }
+
+  .productive div:nth-child(2) {
+    width: 100%;
+  }
+
+  .productive div:nth-child(2) h1 {
+    width: 100%;
+    font-size: 19px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .productive div:nth-child(2) h5,
+  .productive div:nth-child(2) h6 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+    text-wrap: pretty;
+  }
+
+  .productive span {
+    font-size: 14px;
+    width: max-content;
+  }
+
+  .testimonials {
+    margin-top: 100px;
+    margin-bottom: 160px;
+  }
+
+  .quotes {
+    width: 25px;
+    height: 20px;
+    top: 0;
+    left: 125px;
+  }
+
+  .testimonial-div {
+    width: 100%;
+    margin-left: 0;
+    left: 0;
+    top: 15px;
+    margin-top: 0;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .satish,
+  .bruce,
+  .iva {
+    width: 350px;
+    background-color: hsl(219, 30%, 18%);
+    padding: 30px;
+    border-radius: 5px;
+  }
+
+  .satish > p,
+  .bruce > p,
+  .iva > p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .email {
+    width: 400px;
+    padding: 40px 25px;
+    left: 50%;
+    margin-left: -200px;
+  }
+
+  .email div:nth-child(1) h1 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .email div:nth-child(1) p {
+    width: 100%;
+    margin: auto;
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 30px;
+  }
+
+  form {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .email div:nth-child(2) input {
+    width: 100%;
+    padding: 15px 30px;
+  }
+
+  .email div:nth-child(2) button {
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 12px;
+  }
+
+  footer {
+    margin-top: 400px;
+    padding: 235px 40px 40px 40px;
+    flex-direction: column;
+  }
+
+  .first {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .first div:nth-child(2) img {
+    margin-right: 20px;
+  }
+
+  .first div:nth-child(2) p {
+    width: 100%;
+    line-height: 25px;
+    font-size: 16px;
+  }
+
+  .second {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 85px;
+  }
+
+  .second img {
+    margin-right: 15px;
+  }
+
+  .third {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 80px;
+  }
+
+  .third ul {
+    gap: 20px;
+  }
+
+  .fourth {
+    padding: 0;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .fourth i {
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 686px TO 767px */
+@media screen and (min-width: 686px) and (max-width: 767px) {
+  section {
+    width: 685px;
+    margin: auto;
+  }
+
+  header {
+    padding: 45px 50px;
+  }
+
+  header div:nth-child(1) {
+    width: 25%;
+  }
+
+  header div:nth-child(1) img {
+    width: 100%;
+  }
+
+  header ul {
+    gap: 45px;
+  }
+
+  header ul > li {
+    font-size: 16px;
+  }
+
+   .intro {
+    padding: 0 50px;
+    height: 750px;
+    padding-top: 45px;
+  }
+
+  .curvy-mobile {
+    display: block;
+    width: 635px;
+  }
+
+  .curvy-desktop {
+    display: none;
+  }
+
+  .intro-container {
+    width: 100%;
+  }
+
+  .intro-container img {
+    width: 100%;
+  }
+
+  .lower {
+    width: 100%;
+    left: 0;
+    margin: 0;
+    top: 500px;
+  }
+
+  .lower h1 {
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    text-wrap: pretty;
+  }
+
+  .lower p {
+    padding: 0 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 25px;
+  }
+
+  .lower button {
+    font-size: 12px;
+  }
+
+  .features {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+    gap: 80px;
+  }
+
+  .productive {
+    flex-direction: column;
+    padding: 0 50px;
+    gap: 40px;
+  }
+
+  .productive div:nth-child(1) img {
+    width: 100%;
+  }
+
+  .productive div:nth-child(2) {
+    width: 100%;
+  }
+
+  .productive div:nth-child(2) h1 {
+    width: 100%;
+    font-size: 19px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .productive div:nth-child(2) h5,
+  .productive div:nth-child(2) h6 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+    text-wrap: pretty;
+    padding: 0 40px;
+    margin-bottom: 30px;
+  }
+
+  .productive span {
+    font-size: 14px;
+    width: max-content;
+    margin-left: 40px;
+  }
+
+  .testimonials {
+    margin-top: 100px;
+    margin-bottom: 160px;
+  }
+
+  .quotes {
+    width: 25px;
+    height: 20px;
+    top: 0;
+    left: 125px;
+  }
+
+  .testimonial-div {
+    width: 100%;
+    margin-left: 0;
+    left: 0;
+    top: 15px;
+    margin-top: 0;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .satish,
+  .bruce,
+  .iva {
+    width: 450px;
+    background-color: hsl(219, 30%, 18%);
+    padding: 30px;
+    border-radius: 5px;
+  }
+
+  .satish > p,
+  .bruce > p,
+  .iva > p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  .email {
+    width: 400px;
+    padding: 40px 25px;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: 100px;
+  }
+
+  .email div:nth-child(1) h1 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .email div:nth-child(1) p {
+    width: 100%;
+    margin: auto;
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 30px;
+  }
+
+  form {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .email div:nth-child(2) input {
+    width: 100%;
+    padding: 15px 30px;
+  }
+
+  .email div:nth-child(2) button {
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 12px;
+  }
+
+  footer {
+    margin-top: 480px;
+    padding: 265px 40px 40px 40px;
     flex-direction: column;
   }
 
