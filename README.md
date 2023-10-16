@@ -76,7 +76,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/blogr-screenshot.png)
+![](./images/screenshot.png)
 
 ### Links
 
